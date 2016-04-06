@@ -1,0 +1,17 @@
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/UnityEngine.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/UnityEditor.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Mono.Cecil.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Unity.DataContract.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/wangye/Desktop/Project_D/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/wangye/Desktop/Project_D/obj/Debug/Assembly-CSharp.dll
+/Users/wangye/Desktop/Project_D/obj/Debug/Assembly-CSharp.dll.mdb
