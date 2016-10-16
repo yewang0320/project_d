@@ -17,6 +17,9 @@ public class Control_Input : MonoBehaviour {
 		bool blueToggled = Input.GetKeyDown (KeyCode.S);
 		bool pinkToggled = Input.GetKeyDown (KeyCode.A);
 		bool greenToggled = Input.GetKeyDown (KeyCode.W);
+
+		bool reset = Input.GetKeyUp (KeyCode.R);
+
 		if (redToggled) {
 			red = !red;
 		} else if (blueToggled) {
@@ -26,5 +29,6 @@ public class Control_Input : MonoBehaviour {
 		} else if (greenToggled) {
 			green = !green;
 		}
+			
 	}
 }

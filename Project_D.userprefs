@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Camera_Transition.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Checkpoint_Trigger.cs">
     <Files>
-      <File FileName="Assets/Scripts/Camera_Transition.cs" Line="46" Column="20" />
-      <File FileName="Assets/Scripts/Ball_Control.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Camera_Transition.cs" Line="21" Column="3" />
+      <File FileName="Assets/Scripts/Ball_Control.cs" Line="26" Column="63" />
       <File FileName="Assets/Scripts/Camera_Follow.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Compound_Control.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Compound_Control.cs" Line="28" Column="34" />
+      <File FileName="Assets/Scripts/Checkpoint_Trigger.cs" Line="65" Column="24" />
+      <File FileName="Assets/Scripts/Control_Input.cs" Line="11" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
