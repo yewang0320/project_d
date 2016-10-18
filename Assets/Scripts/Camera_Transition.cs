@@ -8,6 +8,7 @@ public class Camera_Transition : MonoBehaviour {
 	public Camera_Follow c_follow;
 	public Vector3 target_offset;
 	public float panSteps;
+	public float zoom;
 	private float currentStep;
 	public bool isTransition = false;
 
@@ -37,9 +38,11 @@ public class Camera_Transition : MonoBehaviour {
 	}
 
 	void Update_Offset(float dt) {
+		c_follow.GetComponent<Camera> ().orthographicSize = zoom;
 		currentStep += dt;
 		Vector3 old_offset = c_follow.offset;
 		c_follow.offset = Vector3.Lerp (old_offset, target_offset, currentStep / panSteps);
+		//c_follow.offset += 
 		if (currentStep == panSteps) {
 			isTransition = false;
 			isTriggered = false;

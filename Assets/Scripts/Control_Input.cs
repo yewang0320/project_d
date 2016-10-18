@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Control_Input : MonoBehaviour {
-	public bool red, blue, pink, green;
+	public bool red, blue, pink, green, reset;
+	public Checkpoint_Trigger currentCheckpoint;
 	// Use this for initialization
 	void Start () {
 		red = true;
@@ -17,8 +18,6 @@ public class Control_Input : MonoBehaviour {
 		bool blueToggled = Input.GetKeyDown (KeyCode.S);
 		bool pinkToggled = Input.GetKeyDown (KeyCode.A);
 		bool greenToggled = Input.GetKeyDown (KeyCode.W);
-
-		bool reset = Input.GetKeyUp (KeyCode.R);
 
 		if (redToggled) {
 			red = !red;

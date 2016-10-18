@@ -15,8 +15,8 @@ public class Domino_Control : MonoBehaviour {
 	public Material m_red_off, m_blue_off, m_pink_off, m_green_off;
 	Vector2 savedVelocity = new Vector2 (0,0);
 	float savedAngularVelocity = 0;
-	private int _count, _count_touch;
-	private List<GameObject> inObjects;
+	public int _count, _count_touch;
+	public List<GameObject> inObjects;
 
 	// Use this for initialization
 	void Start () {
@@ -160,6 +160,7 @@ public class Domino_Control : MonoBehaviour {
 				}
 			}
 		}
+
 		//Debug.Log (_count);
 		if (_count == 0) {
 			return true;

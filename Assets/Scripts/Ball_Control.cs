@@ -15,8 +15,8 @@ public class Ball_Control : MonoBehaviour {
 	public Material m_red_off, m_blue_off, m_pink_off, m_green_off;
 	Vector2 savedVelocity = new Vector2 (0,0);
 	float savedAngularVelocity = 0;
-	private int _count;
-	private List<GameObject> inObjects;
+	public int _count;
+	public List<GameObject> inObjects;
 
 	// Use this for initialization
 	void Start () {
@@ -147,6 +147,7 @@ public class Ball_Control : MonoBehaviour {
 				}
 			}
 		}
+			
 		//Debug.Log (_count);
 		if (_count == 0) {
 			return true;
